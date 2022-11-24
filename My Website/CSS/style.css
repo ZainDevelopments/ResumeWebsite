@@ -1,7 +1,24 @@
 * {
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     color: rgb(202, 69, 69);
+}
+
+.global-header {
+    background-color: rgb(202, 69, 69, .5);
+}
+
+.index-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
 }
