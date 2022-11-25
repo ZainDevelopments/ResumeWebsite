@@ -22,3 +22,34 @@ html, body {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
 }
+
+.global-nav ul {
+    margin: 0;
+}
+
+.global-nav li {
+    display: inline;
+}
+
+.global-nav a {
+    display: inline-flex;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
+.index-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(0, 0, 0, .4);
+}
+
+.index-nav {
+    padding: 0 5%;
+}
+
+.global-nav a:hover {
+    background-color: rgb(80, 141, 153, .5);
+    font-weight: bold;
+}
