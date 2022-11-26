@@ -51,6 +51,16 @@ html, body {
 .global-nav a:hover {
     background-color: #efebd8;
     z-index: 1;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.global-nav li:first-child a:hover {
+    border-top-left-radius:  30px;
+}
+
+.global-nav li:last-child a:hover {
+    border-top-right-radius:  30px;
 }
 
 .container {
