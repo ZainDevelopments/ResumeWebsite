@@ -11,11 +11,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #efebd8;
+    background-color: #89CFF0;
 }
 
 .global-header {
-    background-color: #7a7766;
+    background-color: #003366;
 }
 
 .index-header {
@@ -58,7 +58,7 @@ html, body {
 }
 
 .global-nav a:hover {
-    background-color: #efebd8;
+    background-color: #89CFF0;
     z-index: 1;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -72,30 +72,38 @@ html, body {
     border-top-right-radius:  30px;
 }
 
+.global-section {
+    margin-bottom: 5em;
+}
+
 .container {
-    max-width: 900px;
+    max-width: 60%;
     margin: 0 auto;
-    padding: 0 1.5em;
-    color: #112A46;
+    padding: 0 1em;
+    background-color: white;
+    border-radius: 45px;
 }
 
 .section-header {
     font-weight: normal;
     text-align: center;
     font-size: 2.3em;
+    padding-top: 2%;
 }
 
-.about-me-body, .global-footer {
+.about-me-body {
     display: flex;
     flex-direction: column;
     max-width: 90%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .about-me-body {
     font-size: 1.5em;
     text-indent: 45px;
-    background-color: #7a7766;
-    border-radius: 50px;
+}
+
+.global-footer {
+    background-color: white;
 }
