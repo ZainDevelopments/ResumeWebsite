@@ -34,6 +34,7 @@ html, body {
 
 .global-nav ul {
     margin: 0;
+    overflow: hidden;
 }
 
 .global-nav li {
@@ -52,6 +53,8 @@ html, body {
     text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .image-spacing {
