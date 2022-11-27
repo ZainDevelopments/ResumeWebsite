@@ -1,3 +1,8 @@
+/*Color palettes
+ *#efebd8
+ *#7a7766
+*/
+
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
@@ -35,7 +40,7 @@ html, body {
     border-bottom: 1px solid rgb(0, 0, 0, .4);
 }
 
-.global-nav a {
+.global-nav a{
     display: inline-block;
     padding: .5em;
     color: black;
@@ -44,8 +49,12 @@ html, body {
 
 .index-nav {
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: lighter;
+}
+
+.image-spacing {
+    margin-right: .5em;
 }
 
 .global-nav a:hover {
@@ -76,12 +85,17 @@ html, body {
     font-size: 2.3em;
 }
 
-.about-me, .global-footer {
+.about-me-body, .global-footer {
+    display: flex;
+    flex-direction: column;
     max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.about-me {
+.about-me-body {
     font-size: 1.5em;
+    text-indent: 45px;
+    background-color: #7a7766;
+    border-radius: 50px;
 }
