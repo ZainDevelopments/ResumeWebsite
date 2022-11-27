@@ -29,6 +29,7 @@ html, body {
 .welcome-header {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .global-nav ul {
@@ -43,7 +44,7 @@ html, body {
 .global-nav a{
     display: inline-block;
     padding: .5em;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -58,6 +59,7 @@ html, body {
 }
 
 .global-nav a:hover {
+    color: black;
     background-color: #89CFF0;
     z-index: 1;
     border-top-left-radius: 8px;
@@ -79,9 +81,11 @@ html, body {
 .container {
     max-width: 60%;
     margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
     padding: 0 1em;
     background-color: white;
-    border-radius: 45px;
+    border-radius: 30px;
 }
 
 .section-header {
@@ -91,7 +95,7 @@ html, body {
     padding-top: 2%;
 }
 
-.about-me-body {
+.content-body {
     display: flex;
     flex-direction: column;
     max-width: 90%;
@@ -99,11 +103,27 @@ html, body {
     margin-right: 3%;
 }
 
-.about-me-body {
+.content-body {
     font-size: 1.5em;
     text-indent: 45px;
 }
 
 .global-footer {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    background-color: #008080;
+}
+
+.leaving-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: auto;
 }
