@@ -78,6 +78,7 @@ html, body {
 
 .section-origin {
     display: flex;
+    flex-direction: column;
     background-color: #89CFF0;
 }
 
@@ -92,16 +93,18 @@ html, body {
 }
 
 .nav-center {
-    position: relative;
-    background-color: green;
+    background-color: #003366c2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .nav-center ul {
-    padding-left: 0;
 }
 
 .nav-center li {
     list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .section-header {
