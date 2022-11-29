@@ -11,7 +11,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #89CFF0;
 }
 
 .global-header {
@@ -39,7 +38,7 @@ html, body {
 
 .global-nav li {
     display: inline;
-    border-bottom: 1px solid rgb(0, 0, 0, .4);
+    border-bottom: 1px solid rgba(255, 255, 255, .8);
 }
 
 .global-nav a{
@@ -77,8 +76,9 @@ html, body {
     border-top-right-radius:  30px;
 }
 
-.global-section {
-    margin-bottom: 5em;
+.section-origin {
+    display: flex;
+    background-color: #89CFF0;
 }
 
 .container {
@@ -89,6 +89,19 @@ html, body {
     padding: 0 1em;
     background-color: white;
     border-radius: 30px;
+}
+
+.nav-center {
+    position: relative;
+    background-color: green;
+}
+
+.nav-center ul {
+    padding-left: 0;
+}
+
+.nav-center li {
+    list-style-type: none;
 }
 
 .section-header {
