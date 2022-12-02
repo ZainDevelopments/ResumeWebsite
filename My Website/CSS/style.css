@@ -76,6 +76,20 @@ html, body {
     border-top-right-radius:  30px;
 }
 
+.section-origin {
+    display: flex;
+    flex-direction: column;
+    background-color: #89CFF0;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: white;
+    border-radius: 30px;
+}
+
 .nav-center-origin {
     background-color: #003366c2;
     border-bottom-left-radius: 10px;
@@ -110,13 +124,12 @@ html, body {
     margin-bottom: 40;
     padding: 0 1em;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .content {
     margin-bottom: 1%;
 }
-
 .section-header {
     margin: 0;
     font-weight: normal;
