@@ -90,6 +90,10 @@ html, body {
     border-radius: 30px;
 }
 
+.section-start {
+    margin-top: 5em;
+}
+
 .nav-center-origin {
     background-color: #003366c2;
     border-bottom-left-radius: 10px;
