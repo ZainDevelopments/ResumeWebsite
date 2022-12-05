@@ -1,11 +1,14 @@
 /*Color palettes
- *#efebd8
- *#7a7766
+ *
+ *
 */
 
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 1px;
 }
 
 html, body {
@@ -90,10 +93,6 @@ html, body {
     border-radius: 30px;
 }
 
-.section-start {
-    margin-top: 5em;
-}
-
 .nav-center-origin {
     background-color: #003366c2;
     border-bottom-left-radius: 10px;
@@ -129,11 +128,14 @@ html, body {
     padding: 0 1em;
     background-color: white;
     border-radius: 10px;
+    min-width: 71.2em;
+    min-height: 5em;
 }
 
 .content {
     margin-bottom: 1%;
 }
+
 .section-header {
     margin: 0;
     font-weight: normal;
@@ -169,7 +171,7 @@ html, body {
     display: flex;
     flex-direction: column;
     font-size: larger;
-    background-color: #008080;
+    background-color: #008080af;
 }
 
 .leaving-header {
