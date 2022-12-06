@@ -96,26 +96,6 @@ html, body {
     border-radius: 30px;
 }
 
-.nav-center-origin {
-    background-color: #003366c2;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-bottom: .2em;
-    margin-bottom: 1%;
-}
-
-.nav-center {
-    margin-top: 0;
-}
-
-.nav-center li {
-    list-style-type: none;
-    display: inline-flex;
-    justify-content: center;
-    font-size: 1.3em;
-    margin: 0;
-}
-
 .section-global {
     display: flex;
     margin: 0;
@@ -136,6 +116,14 @@ html, body {
 }
 
 .content {
+    margin-bottom: 1%;
+}
+
+.content:first-child {
+    margin-top: 1%;
+}
+
+.content:last-child {
     margin-bottom: 1%;
 }
 
