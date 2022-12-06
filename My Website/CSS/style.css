@@ -6,9 +6,9 @@
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    outline-style: dotted;
+    /*outline-style: dotted;
     outline-color: red;
-    outline-width: 1px;
+    outline-width: 1px;*/
 }
 
 html, body {
