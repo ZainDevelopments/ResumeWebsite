@@ -142,6 +142,9 @@ html, body {
     margin-left: 3%;
     margin-right: 3%;
     font-size: 1.3em;
+}
+
+.para {
     text-indent: 45px
 }
 
@@ -155,6 +158,12 @@ html, body {
 
 .content-body p:last-child {
     margin-top: .5em;
+}
+
+
+.content-body h3 {
+    text-indent: 0;
+    margin: 0;
 }
  
 .global-footer {
